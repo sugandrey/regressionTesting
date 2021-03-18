@@ -26,23 +26,19 @@ public class Base {
 	public WebDriver initializeDriver() throws IOException {
 
 		//FileInputStream fis = new FileInputStream("C:\\Users\\user\\eclipse-workspaceNewProjects\\E2EProject\\src\\main\\java\\resources\\data.properties");
-		//we can avoid hard code path to files
+		
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+
 				"\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
-		//if we are working with file data for browserName
+		
 		String browserName = prop.getProperty("browser");
-		//if we want to invoke browser property from maven with Jenkins browser properties without file data we should get property from system
-		// but when we are write mvn test -Dbrowser=chrome or _Dbrowser=chromeheadless in command line.
+	
 		//String browserName = System.getProperty("browser");
-// if we want avoid hard code of path to driver exe. file we can paste files to project and to make path there throw "user.dir". 
 //		if (browserName.equals("chrome")) {
 //			System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver.exe");
 			//driver = new ChromeDriver();
 			
-//			To run tests headless we invoke instance ChromeOptions() class and pass this instance
-//			in ChromeDriver as an argument
-			// if we want to use usual run sometimes and headless sometimes we can do this:
+			
 			if(browserName.contains("chrome")) {
 				System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver.exe");
 				ChromeOptions options = new ChromeOptions();
