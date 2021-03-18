@@ -1,5 +1,0 @@
-18:28:34.279 [TestNG] INFO  resources.Base - The title succesfully validated
-18:28:34.287 [TestNG] INFO  resources.Base - Navigated to home page
-18:28:35.898 [TestNG] INFO  resources.Base - Navigation Bar is displayed
-18:28:36.462 [TestNG] INFO  resources.Base - Nonrestricted user
-18:28:43.515 [TestNG] INFO  resources.Base - Restricted user
