@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-28T23:28:21Z" name="Suite" finished-at="2021-02-28T23:28:47Z" duration-ms="26129">
+    <groups>
+    </groups>
+    <test started-at="2021-02-28T23:28:21Z" name="Validating title on the page" finished-at="2021-02-28T23:28:34Z" duration-ms="13252">
+      <class name="academy.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:academy.E2EProject.ValidateTitle@4bd2f0dc]" started-at="2021-02-28T18:28:21Z" name="initilize" finished-at="2021-02-28T18:28:34Z" duration-ms="12732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="validateHeader()[pri:0, instance:academy.E2EProject.ValidateTitle@4bd2f0dc]" started-at="2021-02-28T18:28:34Z" name="validateHeader" finished-at="2021-02-28T18:28:34Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method signature="validateTitleOnHomePage()[pri:0, instance:academy.E2EProject.ValidateTitle@4bd2f0dc]" started-at="2021-02-28T18:28:34Z" name="validateTitleOnHomePage" finished-at="2021-02-28T18:28:34Z" duration-ms="26" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at academy.E2EProject.ValidateTitle.validateTitleOnHomePage(ValidateTitle.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleOnHomePage -->
+        <test-method is-config="true" signature="exitFromBrowser()[pri:0, instance:academy.E2EProject.ValidateTitle@4bd2f0dc]" started-at="2021-02-28T18:28:34Z" name="exitFromBrowser" finished-at="2021-02-28T18:28:34Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitFromBrowser -->
+      </class> <!-- academy.E2EProject.ValidateTitle -->
+    </test> <!-- Validating title on the page -->
+    <test started-at="2021-02-28T23:28:21Z" name="Validating of navigator bar" finished-at="2021-02-28T23:28:35Z" duration-ms="14414">
+      <class name="academy.E2EProject.ValidateNavigationBar">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:academy.E2EProject.ValidateNavigationBar@7a26928a]" started-at="2021-02-28T18:28:21Z" name="initilize" finished-at="2021-02-28T18:28:34Z" duration-ms="12661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="validateBarNavigation()[pri:0, instance:academy.E2EProject.ValidateNavigationBar@7a26928a]" started-at="2021-02-28T18:28:34Z" name="validateBarNavigation" finished-at="2021-02-28T18:28:35Z" duration-ms="1723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBarNavigation -->
+        <test-method is-config="true" signature="exitFromBrowser()[pri:0, instance:academy.E2EProject.ValidateNavigationBar@7a26928a]" started-at="2021-02-28T18:28:35Z" name="exitFromBrowser" finished-at="2021-02-28T18:28:35Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitFromBrowser -->
+      </class> <!-- academy.E2EProject.ValidateNavigationBar -->
+    </test> <!-- Validating of navigator bar -->
+    <test started-at="2021-02-28T23:28:21Z" name="Validating user login" finished-at="2021-02-28T23:28:47Z" duration-ms="26129">
+      <class name="academy.E2EProject.HomePage">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:academy.E2EProject.HomePage@58f174d9]" started-at="2021-02-28T18:28:21Z" name="initilize" finished-at="2021-02-28T18:28:27Z" duration-ms="5683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:academy.E2EProject.HomePage@58f174d9]" started-at="2021-02-28T18:28:27Z" name="basePageNavigation" data-provider="getData" finished-at="2021-02-28T18:28:40Z" duration-ms="13338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nondestricteduser@rw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nonrestricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:academy.E2EProject.HomePage@58f174d9]" started-at="2021-02-28T18:28:40Z" name="basePageNavigation" data-provider="getData" finished-at="2021-02-28T18:28:47Z" duration-ms="7072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[destricteduser@rw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[654321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="exitFromBrowser()[pri:0, instance:academy.E2EProject.HomePage@58f174d9]" started-at="2021-02-28T18:28:47Z" name="exitFromBrowser" finished-at="2021-02-28T18:28:47Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitFromBrowser -->
+      </class> <!-- academy.E2EProject.HomePage -->
+    </test> <!-- Validating user login -->
+  </suite> <!-- Suite -->
+</testng-results>

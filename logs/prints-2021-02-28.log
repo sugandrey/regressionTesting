@@ -1,0 +1,8 @@
+18:26:20.637 [TestNG] INFO  resources.Base - Navigated to home page
+18:26:20.729 [TestNG] INFO  resources.Base - The title succesfully validated
+18:26:20.738 [TestNG] INFO  resources.Base - Navigated to home page
+18:26:23.468 [TestNG] INFO  resources.Base - Nonrestricted user
+18:26:24.304 [TestNG] INFO  resources.Base - Navigation Bar is displayed
+18:26:30.888 [TestNG] INFO  resources.Base - Restricted user
+18:28:34.242 [TestNG] INFO  resources.Base - Driver is initiliazed
+18:28:34.246 [TestNG] INFO  resources.Base - Navigated to home page
